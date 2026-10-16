@@ -1,0 +1,23 @@
+Create an expense tracker.
+The user should be able to add an expense amount.
+Display:
+Total Expenses: Ksh 0
+
+Use useState to store the expenses.
+Use useEffect to calculate the total whenever a new expense is added.
+Challenge: Add a button to remove an expense.
+20. Personal Habit Tracker ⭐
+Create a tracker for daily habits.
+Habits:
+☐ Read a book
+☐ Exercise
+☐ Drink water
+☐ Do homework
+
+When a child completes a habit, it becomes:
+✅ Read a book
+
+Use useState to store which habits are completed.
+Use useEffect to count completed habits.
+Display:
+Completed: 2 / 4

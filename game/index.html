@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nebula Drift</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <div class="hud">
+        <div class="hud-item">
+          <span>Score</span>
+          <strong id="score">0</strong>
+        </div>
+        <div class="hud-item">
+          <span>Best</span>
+          <strong id="best">0</strong>
+        </div>
+        <div class="hud-item">
+          <span>Lives</span>
+          <strong id="lives">3</strong>
+        </div>
+      </div>
+
+      <canvas id="gameCanvas" width="920" height="560" aria-label="Nebula Drift game"></canvas>
+
+      <div id="overlay" class="overlay visible">
+        <div class="card">
+          <p class="eyebrow">Arcade survival</p>
+          <h1>Nebula Drift</h1>
+          <p>Collect glowing cores and avoid the asteroid storm.</p>
+          <button id="startButton" type="button">Start Game</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
